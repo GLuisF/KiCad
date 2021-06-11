@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STLED316
+D Serial-interfaced 6-digit LED controller with keyscan
+F https://www.st.com/resource/en/datasheet/stled316s.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SW_DIP_x05
+D 5x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol
+K dip switch
+F ~
+$ENDCMP
+#
+$CMP TPA511GLFS
+D Multidirection SMT Navigation Switch
+F https://br.mouser.com/datasheet/2/60/TPA_31aug10-14456.pdf
+$ENDCMP
+#
+#End Doc Library
