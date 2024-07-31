@@ -1,1136 +1,2618 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "FS8205A" (pin_names hide) (in_bom yes) (on_board yes)
-    (property "Reference" "Q" (at 2.54 3.175 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "FS8205A" (at 2.54 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm" (at 2.54 6.985 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.ic-fortune.com/upload/Download/FS8205A-DS-17_EN.pdf" (at -2.54 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "ki_keywords" "Dual Half Bridge N-Channel MOSFET Logic Level Common Drain" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "6A Id, 20V Vds, Common-Drain, Dual Half Bridge N-Channel MOSFET, 23mOhm Ron, TSSOP-8" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "TSSOP*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "FS8205A_0_1"
-      (circle (center -0.889 5.08) (radius 2.794)
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.286 3.175)
-          (xy -2.286 6.985)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.286 5.08)
-          (xy -5.08 5.08)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.778 2.794)
-          (xy -1.778 3.81)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.778 4.572)
-          (xy -1.778 5.588)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.778 6.35)
-          (xy -1.778 7.366)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 -3.302)
-          (xy 0 3.302)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 7.62)
-          (xy 0 5.08)
-          (xy -1.778 5.08)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.778 6.858)
-          (xy 0.762 6.858)
-          (xy 0.762 3.302)
-          (xy -1.778 3.302)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.524 5.08)
-          (xy -0.508 4.699)
-          (xy -0.508 5.461)
-          (xy -1.524 5.08)
-        )
-        (stroke (width 0) (type default))
-        (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 0.254 4.572)
-          (xy 0.381 4.699)
-          (xy 1.143 4.699)
-          (xy 1.27 4.826)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.762 4.699)
-          (xy 0.381 5.334)
-          (xy 1.143 5.334)
-          (xy 0.762 4.699)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 3.302) (radius 0.254)
-        (stroke (width 0) (type default))
-        (fill (type outline))
-      )
-      (circle (center 0 6.858) (radius 0.254)
-        (stroke (width 0) (type default))
-        (fill (type outline))
-      )
-    )
-    (symbol "FS8205A_1_1"
-      (circle (center -0.889 -5.08) (radius 2.794)
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 -6.858) (radius 0.254)
-        (stroke (width 0) (type default))
-        (fill (type outline))
-      )
-      (circle (center 0 -3.302) (radius 0.254)
-        (stroke (width 0) (type default))
-        (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy -2.286 -5.08)
-          (xy -5.08 -5.08)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.286 -3.175)
-          (xy -2.286 -6.985)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.778 -6.35)
-          (xy -1.778 -7.366)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.778 -4.572)
-          (xy -1.778 -5.588)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.778 -2.794)
-          (xy -1.778 -3.81)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 -7.62)
-          (xy 0 -5.08)
-          (xy -1.778 -5.08)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.778 -6.858)
-          (xy 0.762 -6.858)
-          (xy 0.762 -3.302)
-          (xy -1.778 -3.302)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.524 -5.08)
-          (xy -0.508 -4.699)
-          (xy -0.508 -5.461)
-          (xy -1.524 -5.08)
-        )
-        (stroke (width 0) (type default))
-        (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy 0.254 -4.572)
-          (xy 0.381 -4.699)
-          (xy 1.143 -4.699)
-          (xy 1.27 -4.826)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.762 -4.699)
-          (xy 0.381 -5.334)
-          (xy 1.143 -5.334)
-          (xy 0.762 -4.699)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 0) (radius 0.254)
-        (stroke (width 0) (type default))
-        (fill (type outline))
-      )
-      (pin passive line (at 2.54 0 180) (length 2.54)
-        (name "D1/D2" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -10.16 90) (length 2.54)
-        (name "S2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -10.16 90) (length 2.54) hide
-        (name "S2" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -7.62 -5.08 0) (length 2.54)
-        (name "G2" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -7.62 5.08 0) (length 2.54)
-        (name "G1" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 10.16 270) (length 2.54)
-        (name "S1" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 10.16 270) (length 2.54) hide
-        (name "S1" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 2.54 0 180) (length 2.54) hide
-        (name "D1/D2" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "LM336-2.5" (pin_names (offset 0.0254) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 1.905 3.81 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LM336-2.5" (at 0 -3.175 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_TO_SOT_THT:TO-92_Inline" (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm185-adj.pdf" (at 0 0 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "ki_keywords" "diode device voltage reference" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "2.5V Micropower Voltage Reference Diodes, TO-92" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "TO?92*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "LM336-2.5_0_1"
-      (polyline
-        (pts
-          (xy 0 2.54)
-          (xy 0 0.381)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 0)
-          (xy 0 0)
-          (xy 1.27 0)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 -1.27)
-          (xy 0.635 0)
-          (xy -1.27 1.27)
-          (xy -1.27 -1.27)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 -1.27)
-          (xy 0.635 -1.27)
-          (xy 0.635 1.27)
-          (xy 1.27 1.27)
-        )
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "LM336-2.5_1_1"
-      (pin input line (at 0 5.08 270) (length 2.54)
-        (name "FB" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 3.81 0 180) (length 2.54)
-        (name "K" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -3.81 0 0) (length 2.54)
-        (name "A" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "PEC12R-4222F-S0024" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "SW1" (at 7.62 -3.81 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "PEC12R-4220F-S024" (at 16.51 -6.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "GLuisF:RotaryEncoder_Bourns_Vertical_PEC12R-4220F-S024" (at -3.81 4.064 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/pec12r.pdf" (at 0 6.604 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "rotary switch encoder switch push button" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "RotaryEncoder*Switch*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "PEC12R-4222F-S0024_0_0"
-      (pin passive line (at -7.62 0 0) (length 2.54) hide
-        (name "MH1" (effects (font (size 1.27 1.27))))
-        (number "MH1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 7.62 0 180) (length 2.54) hide
-        (name "MH2" (effects (font (size 1.27 1.27))))
-        (number "MH2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "PEC12R-4222F-S0024_0_1"
-      (circle (center -1.016 -4.318) (radius 0.127)
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.778 0.381)
-          (xy 1.778 0.381)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.778 0.635)
-          (xy 1.778 0.635)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 -3.81)
-          (xy 0 -3.429)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.016 -3.81)
-          (xy -1.016 -3.81)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.778 0.127)
-          (xy -1.778 0.127)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -3.048 -0.254)
-          (xy -2.794 0.508)
-          (xy -2.413 -0.127)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 -5.08)
-          (xy -2.54 -4.318)
-          (xy -1.016 -4.318)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 5.08)
-          (xy -2.54 3.81)
-          (xy -2.032 3.81)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 -5.08)
-          (xy 2.54 -4.318)
-          (xy 1.016 -4.318)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 5.08)
-          (xy 2.54 3.81)
-          (xy 2.032 3.81)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.921 -0.254)
-          (xy 2.667 0.508)
-          (xy 2.286 -0.127)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 4.318)
-          (xy 0 3.81)
-          (xy 1.016 3.81)
-          (xy 2.032 3.302)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 5.08)
-          (xy 0 3.81)
-          (xy -1.016 3.81)
-          (xy -2.032 3.302)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 0.381) (radius 1.905)
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 3.81) (radius 0.254)
-        (stroke (width 0) (type default))
-        (fill (type outline))
-      )
-      (circle (center 1.016 -4.318) (radius 0.127)
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (arc (start 2.667 0.381) (mid -0.0635 3.0988) (end -2.794 0.381)
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (rectangle (start 5.08 5.08) (end -5.08 -5.08)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "PEC12R-4222F-S0024_1_1"
-      (pin passive line (at 2.54 7.62 270) (length 2.54)
-        (name "A" (effects (font (size 1.27 1.27))))
-        (number "A" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 7.62 270) (length 2.54)
-        (name "B" (effects (font (size 1.27 1.27))))
-        (number "B" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 7.62 270) (length 2.54)
-        (name "C" (effects (font (size 1.27 1.27))))
-        (number "C" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 2.54 -7.62 90) (length 2.54)
-        (name "S1" (effects (font (size 1.27 1.27))))
-        (number "S1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -7.62 90) (length 2.54)
-        (name "S2" (effects (font (size 1.27 1.27))))
-        (number "S2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "PEL12T-4225S-S1024" (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "SW" (at 10.16 15.24 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "PEL12T-4225S-S1024" (at 10.16 12.7 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "GLuisF:PEL12T4225SS1024" (at 10.16 10.16 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/PEL12T.pdf" (at 10.16 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "ki_description" "Encoders Red Blue/Green LED Push Switch Knurled" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "PEL12T-4225S-S1024_0_0"
-      (text "B" (at 3.3754 6.3782 900)
-        (effects (font (size 1.016 1.016)))
-      )
-      (text "G" (at -1.6691 6.3076 900)
-        (effects (font (size 1.016 1.016)))
-      )
-      (text "R" (at -4.1702 6.3358 900)
-        (effects (font (size 1.016 1.016)))
-      )
-      (pin passive line (at -5.08 12.7 270) (length 2.54)
-        (name "R" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 12.7 270) (length 2.54)
-        (name "G" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 12.7 270) (length 2.54)
-        (name "SW" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 2.54 12.7 270) (length 2.54)
-        (name "B" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 5.08 12.7 270) (length 2.54)
-        (name "+" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -2.54 -5.08 90) (length 2.54)
-        (name "A" (effects (font (size 1.27 1.27))))
-        (number "A" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 2.54 -5.08 90) (length 2.54)
-        (name "B" (effects (font (size 1.27 1.27))))
-        (number "B" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -5.08 90) (length 2.54)
-        (name "C" (effects (font (size 1.27 1.27))))
-        (number "C" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -8.89 2.54 0) (length 2.54) hide
-        (name "MH1" (effects (font (size 1.27 1.27))))
-        (number "MH1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 8.89 2.54 180) (length 2.54) hide
-        (name "MH2" (effects (font (size 1.27 1.27))))
-        (number "MH2" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "PEL12T-4225S-S1024_0_1"
-      (rectangle (start -6.35 10.16) (end 6.35 -2.54)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-      (arc (start -2.5991 2.6802) (mid 0.1314 -0.0376) (end 2.8619 2.6802)
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (circle (center 0 -1.27) (radius 0.254)
-        (stroke (width 0) (type default))
-        (fill (type outline))
-      )
-      (polyline
-        (pts
-          (xy -5.7129 8.2811)
-          (xy -4.4429 8.2811)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -5.0788 5.1282)
-          (xy -5.0788 10.2082)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -3.1729 8.2811)
-          (xy -1.9029 8.2811)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.5388 5.1282)
-          (xy -2.5388 10.2082)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.7101 2.9342)
-          (xy 1.8459 2.9342)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.0307 5.1227)
-          (xy 0.0307 6.6155)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.0307 8.64)
-          (xy 0.0307 10.2027)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.5321 7.637)
-          (xy 0.9131 7.637)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.5321 8.653)
-          (xy 0.5321 6.621)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.8459 2.4262)
-          (xy -1.7101 2.4262)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.8459 2.6802)
-          (xy -1.7101 2.6802)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.9071 8.2811)
-          (xy 3.1771 8.2811)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.5412 5.1282)
-          (xy 2.5412 10.2082)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.8531 3.3152)
-          (xy -2.5991 2.5532)
-          (xy -2.2181 3.1882)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.54 -2.54)
-          (xy -2.54 -1.27)
-          (xy -2.032 -1.27)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 -2.54)
-          (xy 2.54 -1.27)
-          (xy 2.032 -1.27)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.1159 3.3152)
-          (xy 2.8619 2.5532)
-          (xy 2.4809 3.1882)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.08 10.16)
-          (xy 5.08 5.08)
-          (xy -5.08 5.08)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -5.0779 8.2811)
-          (xy -5.7129 7.0111)
-          (xy -4.4429 7.0111)
-          (xy -5.0779 8.2811)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.5379 8.2811)
-          (xy -3.1729 7.0111)
-          (xy -1.9029 7.0111)
-          (xy -2.5379 8.2811)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 -2.54)
-          (xy 0 -1.27)
-          (xy 1.016 -1.27)
-          (xy 2.032 -0.762)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 -1.778)
-          (xy 0 -1.27)
-          (xy -1.016 -1.27)
-          (xy -2.032 -0.762)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.5421 8.2811)
-          (xy 1.9071 7.0111)
-          (xy 3.1771 7.0111)
-          (xy 2.5421 8.2811)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -4.3248 7.7757)
-          (xy -3.8168 8.2837)
-          (xy -3.8168 8.0297)
-          (xy -3.8168 8.2837)
-          (xy -4.0708 8.2837)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -4.0689 7.2556)
-          (xy -3.5609 7.7636)
-          (xy -3.5609 7.5096)
-          (xy -3.5609 7.7636)
-          (xy -3.8149 7.7636)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.7848 7.7757)
-          (xy -1.2768 8.2837)
-          (xy -1.2768 8.0297)
-          (xy -1.2768 8.2837)
-          (xy -1.5308 8.2837)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.5289 7.2556)
-          (xy -1.0209 7.7636)
-          (xy -1.0209 7.5096)
-          (xy -1.0209 7.7636)
-          (xy -1.2749 7.7636)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.2952 7.7757)
-          (xy 3.8032 8.2837)
-          (xy 3.8032 8.0297)
-          (xy 3.8032 8.2837)
-          (xy 3.5492 8.2837)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.5511 7.2556)
-          (xy 4.0591 7.7636)
-          (xy 4.0591 7.5096)
-          (xy 4.0591 7.7636)
-          (xy 3.8051 7.7636)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle (center 0.0241 6.621) (radius 0.127)
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (circle (center 0.0241 8.653) (radius 0.127)
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (circle (center 0.0679 2.6802) (radius 1.905)
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "RV122F-20-15F-A10K-0072" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
-    (property "Reference" "VR" (at 16.51 7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "RV122F-20-15F-A10K-0072" (at 16.51 5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "GLuisF:RV122F2015FA10K0072" (at 16.51 2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://componentsearchengine.com/Datasheets/1/RV122F-20-15F-A10K-0072.pdf" (at 16.51 0 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Description" "Potentiometers Audio D-Shaft 10K" (at 16.51 -2.54 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Height" "16.5" (at 16.51 -5.08 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Part Number" "313-1240F-10K" (at 16.51 -7.62 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alpha-Taiwan/RV122F-20-15F-A10K-0072?qs=8%252Br4Hz5Xir%252BxkNYKF%2Fr5tg%3D%3D" (at 16.51 -10.16 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Name" "Alpha (Taiwan)" (at 16.51 -12.7 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Manufacturer_Part_Number" "RV122F-20-15F-A10K-0072" (at 16.51 -15.24 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "ki_description" "Potentiometers Audio D-Shaft 10K" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "RV122F-20-15F-A10K-0072_0_0"
-      (pin passive line (at 0 -5.08 0) (length 5.08)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 0) (length 5.08)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 0 0) (length 5.08)
-        (name "3" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 20.32 -5.08 180) (length 5.08)
-        (name "4" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 20.32 -2.54 180) (length 5.08)
-        (name "5" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 20.32 0 180) (length 5.08)
-        (name "6" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "RV122F-20-15F-A10K-0072_0_1"
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 15.24 2.54)
-          (xy 15.24 -7.62)
-          (xy 5.08 -7.62)
-          (xy 5.08 2.54)
-        )
-        (stroke (width 0.1524) (type solid))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "SRD-12VDC-SL-C" (in_bom yes) (on_board yes)
-    (property "Reference" "K" (at 11.43 3.81 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "SRD-12VDC-SL-C" (at 11.43 1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" (at 11.43 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "http://www.omron.com/ecb/products/pdf/en-g5le.pdf" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "Miniature Single Pole Relay" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Omron G5LE relay, Miniature Single Pole, SPDT, 10A" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Relay*SPDT*Omron*G5LE?1*" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "SRD-12VDC-SL-C_0_0"
-      (polyline
-        (pts
-          (xy 7.62 -5.08)
-          (xy 7.62 -2.54)
-          (xy 6.985 -3.175)
-          (xy 7.62 -3.81)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "SRD-12VDC-SL-C_0_1"
-      (rectangle (start -10.16 5.08) (end 10.16 -5.08)
-        (stroke (width 0.254) (type default))
-        (fill (type background))
-      )
-      (rectangle (start -8.255 1.905) (end -1.905 -1.905)
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -7.62 -1.905)
-          (xy -2.54 1.905)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -5.08 -5.08)
-          (xy -5.08 -1.905)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -5.08 5.08)
-          (xy -5.08 1.905)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.905 0)
-          (xy -1.27 0)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.635 0)
-          (xy 0 0)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.635 0)
-          (xy 1.27 0)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 1.905 0)
-          (xy 2.54 0)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.175 0)
-          (xy 3.81 0)
-        )
-        (stroke (width 0.254) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 3.175 -3.81)
-        )
-        (stroke (width 0.508) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 5.08 5.08)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 2.54 -5.08)
-          (xy 2.54 -2.54)
-          (xy 3.175 -3.175)
-          (xy 2.54 -3.81)
-        )
-        (stroke (width 0) (type default))
-        (fill (type outline))
-      )
-    )
-    (symbol "SRD-12VDC-SL-C_1_1"
-      (pin passive line (at 5.08 7.62 270) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 -7.62 90) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 7.62 -7.62 90) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 2.54 -7.62 90) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at -5.08 7.62 270) (length 2.54)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "FS8205A"
+		(pin_names hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 2.54 3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FS8205A"
+			(at 2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
+			(at 2.54 6.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ic-fortune.com/upload/Download/FS8205A-DS-17_EN.pdf"
+			(at -2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "6A Id, 20V Vds, Common-Drain, Dual Half Bridge N-Channel MOSFET, 23mOhm Ron, TSSOP-8"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Dual Half Bridge N-Channel MOSFET Logic Level Common Drain"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TSSOP*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "FS8205A_0_1"
+			(circle
+				(center -0.889 5.08)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.286 3.175) (xy -2.286 6.985)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.286 5.08) (xy -5.08 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 2.794) (xy -1.778 3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 4.572) (xy -1.778 5.588)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 6.35) (xy -1.778 7.366)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -3.302) (xy 0 3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 7.62) (xy 0 5.08) (xy -1.778 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 6.858) (xy 0.762 6.858) (xy 0.762 3.302) (xy -1.778 3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 5.08) (xy -0.508 4.699) (xy -0.508 5.461) (xy -1.524 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 4.572) (xy 0.381 4.699) (xy 1.143 4.699) (xy 1.27 4.826)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 4.699) (xy 0.381 5.334) (xy 1.143 5.334) (xy 0.762 4.699)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 3.302)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0 6.858)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "FS8205A_1_1"
+			(circle
+				(center -0.889 -5.08)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -6.858)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0 -3.302)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.286 -5.08) (xy -5.08 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.286 -3.175) (xy -2.286 -6.985)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 -6.35) (xy -1.778 -7.366)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 -4.572) (xy -1.778 -5.588)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 -2.794) (xy -1.778 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -7.62) (xy 0 -5.08) (xy -1.778 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 -6.858) (xy 0.762 -6.858) (xy 0.762 -3.302) (xy -1.778 -3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -5.08) (xy -0.508 -4.699) (xy -0.508 -5.461) (xy -1.524 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 -4.572) (xy 0.381 -4.699) (xy 1.143 -4.699) (xy 1.27 -4.826)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -4.699) (xy 0.381 -5.334) (xy 1.143 -5.334) (xy 0.762 -4.699)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 2.54)
+				(name "D1/D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 90)
+				(length 2.54)
+				(name "S2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10.16 90)
+				(length 2.54) hide
+				(name "S2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -5.08 0)
+				(length 2.54)
+				(name "G2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 5.08 0)
+				(length 2.54)
+				(name "G1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 10.16 270)
+				(length 2.54)
+				(name "S1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 10.16 270)
+				(length 2.54) hide
+				(name "S1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 2.54) hide
+				(name "D1/D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "HV9910CLG-G"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HV9910CLG-G"
+			(at 1.27 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/HV9910C-Data-Sheet-DS20005323.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buck LED Lamp Driver Peak-Mode Constant Current, 15V-450V, SO8"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Buck LED Lamp Driver High Voltage Peak CC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "HV9910CLG-G_0_1"
+			(rectangle
+				(start -7.62 10.16)
+				(end 7.62 -10.16)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "HV9910CLG-G_1_1"
+			(pin power_in line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -12.7 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 7.62 180)
+				(length 2.54)
+				(name "GATE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "PWMD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -10.16 7.62 0)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "LD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -7.62 0)
+				(length 2.54)
+				(name "RT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LM336-2.5"
+		(pin_names
+			(offset 0.0254) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 1.905 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM336-2.5"
+			(at 0 -3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm185-adj.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.5V Micropower Voltage Reference Diodes, TO-92"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode device voltage reference"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO?92*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LM336-2.5_0_1"
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy 0 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 0.635 0) (xy -1.27 1.27) (xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LM336-2.5_1_1"
+			(pin input line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PEC12R-4222F-S0024"
+		(pin_names
+			(offset 0.254) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW1"
+			(at 7.62 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PEC12R-4220F-S024"
+			(at 16.51 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GLuisF:RotaryEncoder_Bourns_Vertical_PEC12R-4220F-S024"
+			(at -3.81 4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/pec12r.pdf"
+			(at 0 6.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "rotary switch encoder switch push button"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "RotaryEncoder*Switch*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PEC12R-4222F-S0024_0_0"
+			(pin passive line
+				(at -7.62 0 0)
+				(length 2.54) hide
+				(name "MH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 2.54) hide
+				(name "MH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PEC12R-4222F-S0024_0_1"
+			(circle
+				(center -1.016 -4.318)
+				(radius 0.127)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 0.381) (xy 1.778 0.381)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 0.635) (xy 1.778 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -3.81) (xy 0 -3.429)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 -3.81) (xy -1.016 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.778 0.127) (xy -1.778 0.127)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.048 -0.254) (xy -2.794 0.508) (xy -2.413 -0.127)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -5.08) (xy -2.54 -4.318) (xy -1.016 -4.318)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 5.08) (xy -2.54 3.81) (xy -2.032 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -5.08) (xy 2.54 -4.318) (xy 1.016 -4.318)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 5.08) (xy 2.54 3.81) (xy 2.032 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.921 -0.254) (xy 2.667 0.508) (xy 2.286 -0.127)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 4.318) (xy 0 3.81) (xy 1.016 3.81) (xy 2.032 3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 5.08) (xy 0 3.81) (xy -1.016 3.81) (xy -2.032 3.302)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0.381)
+				(radius 1.905)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 3.81)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.016 -4.318)
+				(radius 0.127)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.667 0.381)
+				(mid -0.0635 3.0988)
+				(end -2.794 0.381)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5.08 5.08)
+				(end -5.08 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "PEC12R-4222F-S0024_1_1"
+			(pin passive line
+				(at 2.54 7.62 270)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 7.62 270)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -7.62 90)
+				(length 2.54)
+				(name "S1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "S1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -7.62 90)
+				(length 2.54)
+				(name "S2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "S2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "PEL12T-4225S-S1024"
+		(pin_names
+			(offset 0.762) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 10.16 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PEL12T-4225S-S1024"
+			(at 10.16 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GLuisF:PEL12T4225SS1024"
+			(at 10.16 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/PEL12T.pdf"
+			(at 10.16 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Encoders Red Blue/Green LED Push Switch Knurled"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PEL12T-4225S-S1024_0_0"
+			(text "B"
+				(at 3.3754 6.3782 900)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(text "G"
+				(at -1.6691 6.3076 900)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(text "R"
+				(at -4.1702 6.3358 900)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 12.7 270)
+				(length 2.54)
+				(name "R"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 12.7 270)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 12.7 270)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 12.7 270)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -5.08 90)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 2.54 0)
+				(length 2.54) hide
+				(name "MH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 2.54 180)
+				(length 2.54) hide
+				(name "MH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PEL12T-4225S-S1024_0_1"
+			(rectangle
+				(start -6.35 10.16)
+				(end 6.35 -2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -2.5991 2.6802)
+				(mid 0.1314 -0.0376)
+				(end 2.8619 2.6802)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -1.27)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.7129 8.2811) (xy -4.4429 8.2811)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.0788 5.1282) (xy -5.0788 10.2082)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.1729 8.2811) (xy -1.9029 8.2811)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.5388 5.1282) (xy -2.5388 10.2082)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.7101 2.9342) (xy 1.8459 2.9342)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.0307 5.1227) (xy 0.0307 6.6155)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.0307 8.64) (xy 0.0307 10.2027)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.5321 7.637) (xy 0.9131 7.637)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.5321 8.653) (xy 0.5321 6.621)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.8459 2.4262) (xy -1.7101 2.4262)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.8459 2.6802) (xy -1.7101 2.6802)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.9071 8.2811) (xy 3.1771 8.2811)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.5412 5.1282) (xy 2.5412 10.2082)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.8531 3.3152) (xy -2.5991 2.5532) (xy -2.2181 3.1882)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -2.54) (xy -2.54 -1.27) (xy -2.032 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 2.54 -1.27) (xy 2.032 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.1159 3.3152) (xy 2.8619 2.5532) (xy 2.4809 3.1882)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 10.16) (xy 5.08 5.08) (xy -5.08 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.0779 8.2811) (xy -5.7129 7.0111) (xy -4.4429 7.0111) (xy -5.0779 8.2811)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.5379 8.2811) (xy -3.1729 7.0111) (xy -1.9029 7.0111) (xy -2.5379 8.2811)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -1.27) (xy 1.016 -1.27) (xy 2.032 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.778) (xy 0 -1.27) (xy -1.016 -1.27) (xy -2.032 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.5421 8.2811) (xy 1.9071 7.0111) (xy 3.1771 7.0111) (xy 2.5421 8.2811)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.3248 7.7757) (xy -3.8168 8.2837) (xy -3.8168 8.0297) (xy -3.8168 8.2837) (xy -4.0708 8.2837)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.0689 7.2556) (xy -3.5609 7.7636) (xy -3.5609 7.5096) (xy -3.5609 7.7636) (xy -3.8149 7.7636)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.7848 7.7757) (xy -1.2768 8.2837) (xy -1.2768 8.0297) (xy -1.2768 8.2837) (xy -1.5308 8.2837)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.5289 7.2556) (xy -1.0209 7.7636) (xy -1.0209 7.5096) (xy -1.0209 7.7636) (xy -1.2749 7.7636)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.2952 7.7757) (xy 3.8032 8.2837) (xy 3.8032 8.0297) (xy 3.8032 8.2837) (xy 3.5492 8.2837)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.5511 7.2556) (xy 4.0591 7.7636) (xy 4.0591 7.5096) (xy 4.0591 7.7636) (xy 3.8051 7.7636)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.0241 6.621)
+				(radius 0.127)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.0241 8.653)
+				(radius 0.127)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.0679 2.6802)
+				(radius 1.905)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "RV122F-20-15F-A10K-0072"
+		(pin_names
+			(offset 0.762)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "VR"
+			(at 16.51 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RV122F-20-15F-A10K-0072"
+			(at 16.51 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GLuisF:RV122F2015FA10K0072"
+			(at 16.51 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/RV122F-20-15F-A10K-0072.pdf"
+			(at 16.51 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometers Audio D-Shaft 10K"
+			(at 16.51 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "16.5"
+			(at 16.51 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "313-1240F-10K"
+			(at 16.51 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alpha-Taiwan/RV122F-20-15F-A10K-0072?qs=8%252Br4Hz5Xir%252BxkNYKF%2Fr5tg%3D%3D"
+			(at 16.51 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Alpha (Taiwan)"
+			(at 16.51 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RV122F-20-15F-A10K-0072"
+			(at 16.51 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(symbol "RV122F-20-15F-A10K-0072_0_0"
+			(pin passive line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
+				(length 5.08)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -5.08 180)
+				(length 5.08)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 -2.54 180)
+				(length 5.08)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 20.32 0 180)
+				(length 5.08)
+				(name "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RV122F-20-15F-A10K-0072_0_1"
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -7.62) (xy 5.08 -7.62) (xy 5.08 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "SRD-12VDC-SL-C"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "K"
+			(at 11.43 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SRD-12VDC-SL-C"
+			(at 11.43 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
+			(at 11.43 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.omron.com/ecb/products/pdf/en-g5le.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Omron G5LE relay, Miniature Single Pole, SPDT, 10A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Miniature Single Pole Relay"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Relay*SPDT*Omron*G5LE?1*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SRD-12VDC-SL-C_0_0"
+			(polyline
+				(pts
+					(xy 7.62 -5.08) (xy 7.62 -2.54) (xy 6.985 -3.175) (xy 7.62 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SRD-12VDC-SL-C_0_1"
+			(rectangle
+				(start -10.16 5.08)
+				(end 10.16 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -8.255 1.905)
+				(end -1.905 -1.905)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -1.905) (xy -2.54 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy -5.08 -1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy -5.08 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 0) (xy 0 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 0) (xy 3.81 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 3.175 -3.81)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 5.08 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -5.08) (xy 2.54 -2.54) (xy 3.175 -3.175) (xy 2.54 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "SRD-12VDC-SL-C_1_1"
+			(pin passive line
+				(at 5.08 7.62 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -7.62 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -7.62 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -7.62 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 7.62 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 )
