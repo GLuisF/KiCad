@@ -249,14 +249,6 @@
 		(remove_unused_layers no)
 		(uuid "203894ff-bc6a-43cc-9488-5146a304da48")
 	)
-	(pad "5" thru_hole circle
-		(at 5.3 0 90)
-		(size 2 2)
-		(drill 1.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "892595e3-eaa0-4d66-a599-6c674b2c4e06")
-	)
 	(pad "6" thru_hole circle
 		(at 0 -4.8 90)
 		(size 2 2)
@@ -265,14 +257,6 @@
 		(remove_unused_layers no)
 		(uuid "424d00c2-799c-4130-9846-76a410bf8033")
 	)
-	(pad "6" thru_hole circle
-		(at 5.3 -4.8 90)
-		(size 2 2)
-		(drill 1.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "ed9e150f-d192-4bc8-8c4e-5e6e32c7be23")
-	)
 	(pad "7" thru_hole circle
 		(at 5.3 4.8 90)
 		(size 2 2)
@@ -280,6 +264,22 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "c7fadc93-cadd-4cba-a95d-7dd058a0d96b")
+	)
+	(pad "8" thru_hole circle
+		(at 5.3 0 90)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "892595e3-eaa0-4d66-a599-6c674b2c4e06")
+	)
+	(pad "9" thru_hole circle
+		(at 5.3 -4.8 90)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ed9e150f-d192-4bc8-8c4e-5e6e32c7be23")
 	)
 	(model "${GLUISF_3DMODEL_DIR}/SW_PUSH_E-Switch_FS57003P_3PDT.wrl"
 		(offset
