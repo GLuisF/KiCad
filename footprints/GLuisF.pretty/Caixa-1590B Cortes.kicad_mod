@@ -866,7 +866,7 @@
 			"ff22ea86-7396-4673-822c-2bf747c2de55" "ffec96f0-28a3-40a0-848f-8b0db797e543"
 		)
 	)
-	(model "D:/Giovani/OneDrive/Projetos/Boss Distortion DS-1/Desenhos Mecânicos/Caixa-1590B Cortes.step"
+	(model "${KIPRJMOD}/Caixa-1590B Cortes.step"
 		(opacity 0.5000)
 		(offset
 			(xyz 0 0 -3.5)
