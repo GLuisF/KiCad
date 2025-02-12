@@ -1,0 +1,177 @@
+(footprint "Adafruit_Feather_M4_CAN"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.54 -1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c87dcbe3-cb0d-4b4e-bc77-30f89c7d819e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Adafruit_Feather_M4_CAN"
+		(at 12.065 27.94 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c0e12a26-cca2-4b08-9dc2-cb3750409785")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "225a6a66-35ed-4e03-8473-270d08c598e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80ad2f01-76a7-459c-a27b-a4ee687af600")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88ad9444-d01d-4e35-98dc-9df3f2957ba3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 2.54)
+		(end 0 48.26)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da88cdd1-d0be-4c67-82cf-995a3d50a5a3")
+	)
+	(fp_line
+		(start 2.54 50.8)
+		(end 20.32 50.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "651ea4d0-d23b-457d-a409-23d622229020")
+	)
+	(fp_line
+		(start 20.32 0)
+		(end 2.54 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6ba8b9f4-72ad-423a-8bb8-7a591d0f0d04")
+	)
+	(fp_line
+		(start 22.86 48.26)
+		(end 22.86 2.54)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b25ee30-c3c9-42a5-bf30-43c07a06fe13")
+	)
+	(fp_arc
+		(start 0 2.54)
+		(mid 0.743949 0.743949)
+		(end 2.54 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f76ada72-b859-48aa-825b-e81eea93d801")
+	)
+	(fp_arc
+		(start 2.54 50.8)
+		(mid 0.743949 50.056051)
+		(end 0 48.26)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d6272aa-5fa8-4a1e-bde4-7ecfbb918465")
+	)
+	(fp_arc
+		(start 20.32 0)
+		(mid 22.116051 0.743949)
+		(end 22.86 2.54)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "233b189e-c9a3-463e-b03a-fc3f11a19ac3")
+	)
+	(fp_arc
+		(start 22.86 48.26)
+		(mid 22.116051 50.056051)
+		(end 20.32 50.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59ec04e2-29db-4b81-a522-ce1befc1067e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 11.43 29.845 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e5783134-d206-429b-be91-692426c5e330")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(model "${GLUISF_3DMODEL_DIR}/3857 Adafruit Feather M4 Express.step"
+		(offset
+			(xyz 0 0 11)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
