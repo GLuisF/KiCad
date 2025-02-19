@@ -231,7 +231,7 @@
 		(remove_unused_layers no)
 		(uuid "359ae08d-fb10-46a9-ada1-91305e0b3340")
 	)
-	(model "${GLUISF_3DMODEL_DIR}/691101710002.stp"
+	(model "${GLUISF_3DMODEL_DIR}/691101710002.wrl"
 		(offset
 			(xyz 2.5 0 0)
 		)
