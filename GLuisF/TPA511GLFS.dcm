@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP TPA511GLFS
-D Multidirection SMT Navigation Switch
-F https://br.mouser.com/datasheet/2/60/TPA_31aug10-14456.pdf
-$ENDCMP
-#
-#End Doc Library
