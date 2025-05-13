@@ -61,7 +61,7 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "40459b63-4e70-4a21-9f5b-bc8e76be99fe")
 	)
 	(fp_text user "${REFERENCE}"
@@ -109,4 +109,15 @@
 		(uuid "747f225d-f30a-4c10-9e92-51f76c00b7aa")
 	)
 	(embedded_fonts no)
+	(model "${GLUISF_3DMODEL_DIR}/HW-106.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
