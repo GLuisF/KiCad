@@ -1315,7 +1315,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GLuisF:HW-106"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1344,8 +1344,8 @@
 		)
 		(symbol "HW-106_1_1"
 			(rectangle
-				(start -12.7 12.7)
-				(end 12.7 -12.7)
+				(start -8.89 10.16)
+				(end 8.89 -7.62)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1355,7 +1355,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 8.89 0)
+				(at -11.43 7.62 0)
 				(length 2.54)
 				(name "IN+"
 					(effects
@@ -1373,7 +1373,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -8.89 0)
+				(at -11.43 -5.08 0)
 				(length 2.54)
 				(name "IN-"
 					(effects
@@ -1391,7 +1391,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 8.89 180)
+				(at 11.43 7.62 180)
 				(length 2.54)
 				(name "OUT+"
 					(effects
@@ -1409,7 +1409,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 -8.89 180)
+				(at 11.43 -5.08 180)
 				(length 2.54)
 				(name "OUT-"
 					(effects
