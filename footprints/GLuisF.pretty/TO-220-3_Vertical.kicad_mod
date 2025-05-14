@@ -1,0 +1,295 @@
+(footprint "TO-220-3_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
+	(tags "TO-220-3 Vertical RM 2.54mm")
+	(property "Reference" "Q5"
+		(at 2.54 -4.27 0)
+		(layer "F.SilkS")
+		(uuid "5d311c44-90bd-4069-9c4d-e31e1a290252")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IRF9610"
+		(at 2.54 2.5 0)
+		(layer "F.Fab")
+		(uuid "e4b54002-ff46-4830-b25c-094ed8a6f9ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.vishay.com/docs/91080/91080.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "baa4f446-939b-42f5-80c7-4680d387ebd1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-1A Id, -200V Vds, 3Ohm Rds, P-Channel Power MOSFET, TO-220"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f12e9ca9-c814-44f3-a1a4-f8cb7f5c79a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6659d5b4-104c-4802-ac8b-a046e8e19f9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.58 -3.27)
+		(end -2.58 1.371)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f50d873-6f0d-4ce2-b0a2-7868d8222520")
+	)
+	(fp_line
+		(start -2.58 -3.27)
+		(end 7.66 -3.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a77e2a89-2ba6-4ff6-83aa-76522451d5f8")
+	)
+	(fp_line
+		(start -2.58 -1.76)
+		(end 7.66 -1.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8342421e-6e24-4996-995e-79a220dc5145")
+	)
+	(fp_line
+		(start -2.58 1.371)
+		(end 7.66 1.371)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "19c1c84f-9c26-4ef7-b27c-6f88fc0189ba")
+	)
+	(fp_line
+		(start 0.69 -3.27)
+		(end 0.69 -1.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4f6f7c4-af8c-4704-876c-2850885fd30b")
+	)
+	(fp_line
+		(start 4.391 -3.27)
+		(end 4.391 -1.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c1b0db5-aee3-4f86-896b-e332984eb4ec")
+	)
+	(fp_line
+		(start 7.66 -3.27)
+		(end 7.66 1.371)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62753194-6756-4447-bdfa-211913b7f485")
+	)
+	(fp_line
+		(start -2.71 -3.4)
+		(end -2.71 1.51)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5c93a885-569f-46ca-8913-72331e980508")
+	)
+	(fp_line
+		(start -2.71 1.51)
+		(end 7.79 1.51)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7abeacb4-fe82-48b7-b6b9-8aab0a4e02f0")
+	)
+	(fp_line
+		(start 7.79 -3.4)
+		(end -2.71 -3.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0b792f8a-dd7f-48d2-80d2-bd581b71d597")
+	)
+	(fp_line
+		(start 7.79 1.51)
+		(end 7.79 -3.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3799e2b1-4ad8-46ed-a03b-6e82efb4b539")
+	)
+	(fp_line
+		(start -2.46 -3.15)
+		(end -2.46 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "25736716-e7ea-44c7-a813-adc248aeafca")
+	)
+	(fp_line
+		(start -2.46 -1.88)
+		(end 7.54 -1.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "34d36fd4-cf28-4539-a4bf-772cea97caad")
+	)
+	(fp_line
+		(start -2.46 1.25)
+		(end 7.54 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9acb5eb5-b3c5-4363-8729-72222810d792")
+	)
+	(fp_line
+		(start 0.69 -3.15)
+		(end 0.69 -1.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b612dcf0-b776-460e-a00b-d1598165b891")
+	)
+	(fp_line
+		(start 4.39 -3.15)
+		(end 4.39 -1.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4a7165b2-726e-411e-96ad-3ccaa3989cef")
+	)
+	(fp_line
+		(start 7.54 -3.15)
+		(end -2.46 -3.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "892168fa-31da-45c5-9711-8e66ced0e815")
+	)
+	(fp_line
+		(start 7.54 1.25)
+		(end 7.54 -3.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a80c6ee1-1c2d-4990-a70b-99dce96e2ffe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 -4.27 0)
+		(layer "F.Fab")
+		(uuid "3dedd858-eea5-40f9-9cd5-7a2aeb786607")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.905 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ce64b69d-67cd-4781-995e-3f0712dc5eba")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 1.905 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "54b7881f-0729-4197-8a11-426e01e3c9a7")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0)
+		(size 1.905 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f5096473-0caf-470d-9b1c-efde4c69e330")
+	)
+	(embedded_fonts no)
+	(model "${GLUISF_3DMODEL_DIR}/TO-220-3_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
