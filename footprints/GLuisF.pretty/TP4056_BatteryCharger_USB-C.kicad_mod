@@ -1,0 +1,223 @@
+(footprint "TP4056_BatteryCharger_USB-C"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 13.97 -1.73 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "355c484d-28b1-4f58-ba15-02a5ad986860")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TP4056_BatteryCharger_USB-C"
+		(at 13.97 -0.23 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f83a5037-600d-4db5-b388-965553480baf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 13.97 -1.23 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c53e8d80-58c5-4826-bbd2-70492f1383c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 13.97 -1.23 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bbd186e-6760-4505-ab6c-52223c5a9081")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start 0 -8.6)
+		(end 28 8.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "40459b63-4e70-4a21-9f5b-bc8e76be99fe")
+	)
+	(fp_text user "OUT+"
+		(at 23.7 -7.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "04b38abe-2720-4fea-ac88-a86391ffd157")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "B-"
+		(at 23.7 3.81 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1b9e979b-dc34-4f03-8b77-642fc19a5c5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "B+"
+		(at 23.7 -3.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1d262a82-9dbf-4352-aee8-19258eb6fd4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "OUT-"
+		(at 23.7 7.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3eb4910b-a09d-4399-89d9-2a278ee04656")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "-"
+		(at 2.7 7.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "92ef8858-b73d-448f-8be3-c11a81ab8f5e")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "+"
+		(at 2.7 -7.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f596b607-eb6b-4e5c-b11c-e63db071b358")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 13.97 1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "452a29ec-83b0-49cc-866b-ee5e5f8995c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 1.7 -7.1)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d66a0da3-0dbc-48db-ae48-4eb3416c4943")
+	)
+	(pad "2" thru_hole rect
+		(at 1.7 7.1)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "816f5154-77e3-492f-b891-731287fc8ef9")
+	)
+	(pad "3" thru_hole rect
+		(at 24.7 -7.1)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "85bf92dd-42e8-421e-9951-27ae8eb527e1")
+	)
+	(pad "4" thru_hole rect
+		(at 24.7 -3.975)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f7c8b270-b9ae-4b5b-9f23-e8365091517a")
+	)
+	(pad "5" thru_hole rect
+		(at 24.7 3.975)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0007ce1c-a7a6-4806-8ae7-d1bb2d793894")
+	)
+	(pad "6" thru_hole rect
+		(at 24.7 7.1)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cfc26435-6561-46f0-a2c0-d1a5b410625d")
+	)
+	(embedded_fonts no)
+	(model "${GLUISF_3DMODEL_DIR}/TP4056_BatteryCharger_USB-C.step"
+		(offset
+			(xyz 14 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)
