@@ -64,6 +64,58 @@
 		(layer "F.SilkS")
 		(uuid "40459b63-4e70-4a21-9f5b-bc8e76be99fe")
 	)
+	(fp_text user "OUT-"
+		(at -6.75 5 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "1abe271c-7849-4192-aa75-d9d4a03dd6c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(fp_text user "IN-"
+		(at 12 6.75 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "22b9277b-5211-4c61-838f-461368695787")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(fp_text user "IN+"
+		(at 12.25 -5.5 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "9a1778ad-b743-4c8c-a5e8-46c249cdb364")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(fp_text user "OUT+"
+		(at -6.75 -4 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "fdc326c1-b4b5-42e9-a28e-ca9d8f586cd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom mirror)
+		)
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
